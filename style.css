@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background: #3D3E42;
+  color: #E4E4E5;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-family: 'Varela Round', sans-serif;
+  text-transform: uppercase;
+  color: #66CC99;
+}
+
+h2 {
+  font-size: 16px;
+  font-family: 'Varela Round', sans-serif;
+  text-transform: uppercase;
+  color: #8D969D;
+
+}
+
+a {
+  color: #66cc99;
+  text-decoration: none;
+}
+
+a:hover {
+  color : #33aa66;
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+
+.card {
+  border-radius: 4px;
+  text-align: center;
+  margin: 40px auto;
+  padding: 30px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+}
+
+.btn-green {
+  background-color: #66CC99;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.btn-green:hover {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.inline-list {
+  display: inline;
+}
+
+#myhead {
+  width: 100px;
+  border-radius: 50%;
+}
